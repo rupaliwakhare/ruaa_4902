@@ -21,8 +21,8 @@ let rev = [23,45,12,65,88];
 function revAr(rev){
     let revARR = [];
     for(let i = rev.length - 1; i>=0; i--){
-        revARR.push(rev(i))
+        revARR.push(rev[i])
     }
-    return revARR
+    return revARR;
 }
 console.log(revAr(rev));
